@@ -1,0 +1,46 @@
+{
+	"Python": {
+		"linux": "sudo apt install -y python3 python3-pip python3-venv",
+		"windows": "winget install Python.Python.3"
+	},
+	"C/C++": {
+		"linux": "sudo apt install -y build-essential gcc g++ make cmake",
+		"windows": "winget install Kitware.CMake"
+	},
+	"Java": {
+		"linux": "sudo apt install -y openjdk-17-jdk",
+		"windows": "winget install Microsoft.OpenJDK.17"
+	},
+	"Node.js": {
+		"linux": "curl -fsSL https://deb.nodesource.com/setup_lts.x | sudo -E bash - && sudo apt install -y nodejs",
+		"windows": "winget install OpenJS.NodeJS"
+	},
+	"Go": {
+		"linux": "sudo apt install -y golang-go",
+		"windows": "winget install GoLang.Go"
+	},
+	"Git": {
+		"linux": "sudo apt install -y git",
+		"windows": "winget install Git.Git"
+	},
+	"Docker": {
+		"linux": "curl -fsSL https://get.docker.com | sh && sudo usermod -aG docker $USER",
+		"windows": "winget install Docker.DockerDesktop"
+	},
+	"VS Code": {
+		"linux": "sudo snap install code --classic",
+		"windows": "winget install Microsoft.VisualStudioCode"
+	},
+	"VirtualBox": {
+		"linux": "sudo apt install -y virtualbox",
+		"windows": "winget install Oracle.VirtualBox"
+	},
+	"Vagrant": {
+		"linux": "sudo apt install -y vagrant",
+		"windows": "winget install Hashicorp.Vagrant"
+	},
+	"MPI": {
+		"linux": "sudo apt install -y mpich libmpich-dev",
+		"windows": "winget install Microsoft.MPI"
+	}
+}

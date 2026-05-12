@@ -1,0 +1,8 @@
+ms-python.python
+ms-vscode.cpptools
+redhat.java
+golang.go
+ms-azuretools.vscode-docker
+hashicorp.vagrant
+eamodio.gitlens
+esbenp.prettier-vscode
