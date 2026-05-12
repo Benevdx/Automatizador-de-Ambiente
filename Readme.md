@@ -18,16 +18,16 @@ python install.py
 
 ## Menu
 
-[1] Instalar tecnologias — seleção interativa via terminal
-[2] Criar ambiente Python — venv com pacotes padrão
-[3] Atualizar sistema — apt upgrade / winget upgrade
-[4] Backup de dotfiles — copia configs para pasta local
+[1] Instalar tecnologias — seleção interativa via terminal \
+[2] Criar ambiente Python — venv com pacotes padrão \
+[3] Atualizar sistema — apt upgrade / winget upgrade \
+[4] Backup de dotfiles — copia configs para pasta local \
 [5] Sair
 
 ## Estrutura
 
-DevSetupManager/
-├── install.py
+DevSetupManager/  \
+├── install.py    
 ├── requirements.txt
 ├── README.md
 ├── configs/
