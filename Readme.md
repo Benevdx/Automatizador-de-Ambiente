@@ -27,18 +27,18 @@ python install.py
 ## Estrutura
 
 DevSetupManager/  \
-├── install.py    
-├── requirements.txt
-├── README.md
-├── configs/
-│ ├── technologies.json
-│ ├── python_envs.json
-│ └── vscode_extensions.txt
-├── docs/
-│ ├── maintenance.md
-│ └── troubleshooting.md
-├── dotfiles/ ← vazio, para seus arquivos
-└── logs/ ← gerado automaticamente
+├── install.py    \
+├── requirements.txt \
+├── README.md \
+├── configs/ \
+│ ├── technologies.json \
+│ ├── python_envs.json \
+│ └── vscode_extensions.txt \
+├── docs/ \
+│ ├── maintenance.md \
+│ └── troubleshooting.md \
+├── dotfiles/ ← vazio, para seus arquivos \
+└── logs/ ← gerado automaticamente \
 
 ## Adicionar tecnologia
 
